@@ -1,2 +1,2 @@
-# Charity
+# EKOTA
 
