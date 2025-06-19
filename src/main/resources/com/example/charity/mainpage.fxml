@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" stylesheets="@mainpage.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.charity.MainPageController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="156.0" prefWidth="Infinity" styleClass="anchor-pane">
+               <children>
+                  <Label layoutX="248.0" layoutY="17.0" text="EKOTA" textAlignment="CENTER" textFill="#c72727">
+                     <font>
+                        <Font name="Bell MT Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="545.0" layoutY="20.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="9.0" text="X" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="donorButton" layoutX="206.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleDonorButtonAction" prefHeight="35.0" prefWidth="94.0" styleClass="org" text="Doner" AnchorPane.leftAnchor="206.0">
+               <font>
+                  <Font name="Consolas" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="orgButton" layoutX="300.0" layoutY="212.0" mnemonicParsing="false" onAction="#handleOrgButtonAction" prefHeight="35.0" prefWidth="94.0" styleClass="doner" text="Org">
+               <font>
+                  <Font name="Consolas" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="166.0" layoutY="120.0" prefHeight="79.0" prefWidth="267.0" styleClass="welcome" text="Welcome to our platform" textFill="#734d89">
+               <font>
+                  <Font name="Britannic Bold" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

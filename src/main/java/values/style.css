@@ -1,0 +1,14 @@
+.up-bar{
+    -fx-background-color:#9370DB;
+}
+.chosen-fruit-card{
+    -fx-background-color: #F16C31;
+    -fx-background-radius: 30;
+}
+.middle-bar{
+    -fx-background-color:	#DCDCDC;
+}
+.fruit-item{
+    -fx-background-color: #FFFFFF;
+        -fx-background-radius: 30;
+}

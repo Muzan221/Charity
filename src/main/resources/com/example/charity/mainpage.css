@@ -1,0 +1,76 @@
+/* Set the background color for the entire StackPane */
+.root {
+    -fx-background-color: white;
+}
+
+/* Style for the top AnchorPane */
+.anchor-pane {
+    -fx-background-color: #a91dfa; /* Purple color */
+    -fx-pref-height: 66px;
+    -fx-pref-width: 600px;
+}
+
+/* Label in the AnchorPane */
+.label {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Bell MT Bold";
+    -fx-font-size: 29px;
+    -fx-text-alignment: center;
+}
+
+/* Style for the "X" button */
+.button {
+    -fx-font-family: Consolas;
+    -fx-font-size: 16px;
+}
+
+/* Button style for "Doner" */
+.button.doner {
+    -fx-background-color: #e4a11f; /* Orange color */
+    -fx-text-fill: white;
+}
+
+/* Button style for "Org" */
+.button.org {
+    -fx-background-color: #8509f6; /* Dark Green color */
+    -fx-text-fill: white;
+}
+
+/* Label for the welcome text */
+.label.welcome {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 23px;
+    -fx-text-fill: #a91dfa;
+}
+
+/* Style for TextField */
+.text-field {
+    -fx-background-color: #f4f4f4; /* Light gray background */
+    -fx-border-color: #c7c7c7; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 10px; /* Padding inside the text field */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-text-fill: #333; /* Text color */
+}
+
+/* Style for PasswordField */
+.password-field {
+    -fx-background-color: #f4f4f4; /* Light gray background */
+    -fx-border-color: #c7c7c7; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 10px; /* Padding inside the password field */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-family: "Arial"; /* Font family */
+    -fx-text-fill: #333; /* Text color */
+}
+
+/* Focused TextField or PasswordField */
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #6a0dad; /* Purple color on focus */
+    -fx-background-color: #fff; /* White background on focus */
+    -fx-text-fill: #000; /* Text color on focus */
+}
+
